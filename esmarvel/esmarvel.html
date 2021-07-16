@@ -1,17 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>esmarvel</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="author" content="luiz esquivel">
-    <link rel="stylesheet" href="assets/css/main.css">
-  </head>
+<head>
+<title>esmarvel - esquizando + marvel</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+  <div class="wrapper row0">
+    <header id="header" class="hoc clear center"> 
+      <h1 id="logo"><i class="fas fa-truck-loading"></i> <a href="esmarvel.html">esmarvel</a></h1>
+    </header>
+  </div>
+  <div class="wrapper row1">
+    <nav id="mainav" class="hoc clear"> 
+      <ul class="clear">
+        <li class="active"><a href="esmarvel.html">Home</a></li>
+        <li><a href="pages-cinema/cinema.html">Cinema</a></li>
+        <li><a href="pages-quadrinhos/quadrinhos.html">Quadrinho</a></li>
+        <li><a class="drop" href="pages-teoria/teorias.html">Teorias</a>
+          <ul>
+            <li><a href="pages-teoria/teoria-ucm.html">Teoria-UCM</a></li>
+            <li><a href="pages-teoria/teoria-udm.html">Teoria-UDM</a></li>
+          </ul>
+        </li>
 
-    <body>
-      <h1> Aqui ficaremos por dentro do blog EsMarvel.</h1>
-      <p> Traremos conteúdos sobre a Marvel, em seu Universo (multiverso) cinematógráfico e de HQs. </p>
-      <button> <a href="../index.html" target="_blank"  style="color: black;" rel="noopener noreferrer"> POR ENQUANTO ISSO É TUDO, MAS ESTAMOS REFORMULANDO E LOGO LOGO FICARÁ PRONTINHO! </a> </button>     
-    </body>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div id="pageintro" class="hoc clear"> 
+    <article>
+      <h3 class="heading">esmarvel</h3>
+      <p> <strong> esquizando da marvel </strong> análises, críticas e tudo que um bom blog tem que ter! </p>
+      <button><a class="btn" href="esmarvel.html">esmarvel - seu blog amigo da vizinhança.</a></button>
+    </article>
+  </div>
+</div>
+<div class="wrapper row3">
+  <main class="hoc container clear"> 
+    <div class="sectiontitle">
+      <h6 class="heading font-x3">A Marvel Comics</h6>
+      <p style="text-align: justify;">Falando de forma resumida, a Marvel é uma empresa que tem seu principal ativo na produção de Histórias envolvendo o universo (multiverso) de Ficção dos Heróis (anti-heróis e vilões). Ela conseguiu uma fama tão grande que hoje ela (seus personagens) são conhecidos em todo o mundo. <br><br>
+
+      Seja por História em Quadrinhos (produção de HQs), seja por filmes, séries e animações (produção audiovisual), seja por jogos (produção gamer) os alcances da produção dessa produtora de histórias, são incríveis e monstruosos. <br><br>
+        
+      Alguns dos personagens que a Marvel produz: <br><br>
+      <ul>
+        
+      <li>Heróis (homem de ferro, viúva negra, Wiccano, Pantera Negra, Tempestade, Ellie Phimister...)</li> <br>
+        
+      <li>Anti-heróis (Deadpool, Elektra, Mulher Gato, Capuz Vermelho...)</li> <br>
+        
+      <li>Vilões (Thanos, Hela, Amora, Ultron, Loki, Sina, Mindmeld, Daken Akihiro...)</li>
+      </p>
+    </div>
+    <div class="posts">
+      <figure class="group">
+        <div><a class="imgover" href="#"><img src="images/demo/570x320.png" alt=""></a></div>
+        <figcaption>
+          <h6 class="heading">Sobre UCM</h6>
+          <p>UCM (Universo Cinematográfico da Marvel) ou MCU (Marvel Cinematography Universe), faz referência ao conjunto de produções da Marvel Company (em ‘parceria’ com outras empresas como Sony e Disney) tendo o principal objetivo a releitura e adaptação das histórias dos personagens da marvel para com a nova geração de jovens que não gostam de realizar a boa e velha leitura de cada dia, incluindo filmes, séries e animações.</p>
+          <button><a class="btn" href="pages-cinema/cinema.html">Mais detalhes</a></button>
+        </figcaption>
+      </figure>
+      <figure class="group">
+        <div><a class="imgover" href="#"><img src="images/demo/570x320.png" alt=""></a></div>
+        <figcaption>
+          <h6 class="heading">Sobre a UDM.</h6>
+          <p>UDM (Universo Digitalizado da Marvel) ou MDU (Marvel Digitalized Universe) é uma, ou melhor, a principal vertente da empresa: Marvel Comics, sendo o primeiro (e, até hoje, o principal) método de divulgação das histórias de seus personagens. Por maioria, as histórias são escritas de forma cronológica e lógica de modo a ter um começo, ação principal e meio.
+          </p>
+          <button><a class="btn" href="pages-quadrinhos/quadrinhos.html">Mais detalhes</a></button>
+        </figcaption>
+      </figure>
+    </div>
+  </main>
+</div>
+
+<footer class="wrapper row5">
+  <div id="copyright" class="hoc clear">
+    <p class="fl_left">Copyright &copy; - <a href="#">esmarvel</a></p>
+  </div>
+  <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+</footer>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
 </html>

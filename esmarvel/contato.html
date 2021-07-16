@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esmarvel | contato</title>
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+    <div class="bgded overlay" style="background-image:url('images/demo/backgrounds/01.png');"> 
+        <div class="wrapper row0">
+          <header id="header" class="hoc clear center"> 
+            <h1 id="logo"><i class="fas fa-truck-loading"></i> <a href="esmarvel.html">esmarvel</a></h1>
+          </header>
+        </div>
+        <div class="wrapper row1">
+          <nav id="mainav" class="hoc clear"> 
+            <ul class="clear">
+              <li class="active"><a href="esmarvel.html">Home</a></li>
+              <li><a href="pages-cinema/cinema.html">Cinema</a></li>
+              <li><a href="pages-quadrinhos/quadrinhos.html">Quadrinho</a></li>
+              <li><a class="drop" href="pages-teoria/teorias.html">Teorias</a>
+                <ul>
+                  <li><a href="pages-teoria/teoria-ucm.html">Teoria-UCM</a></li>
+                  <li><a href="pages-teoria/teoria-udm.html">Teoria-UDM</a></li>
+                </ul>
+              </li>
+      
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <h3> Entre em contato conosco! </h3>
+        <form action="mail.php" method="POST">
+          <label for="fname">Seu nome:</label><br>
+          <input type="text" name="nome" value="John"><br><br>
+          <label for="fname">Seu email:</label><br>
+          <input type="text" name="email" value="teste@domain.com"><br><br>
+          <label for="fname">Motivo do contato:</label><br>
+          <input type="text" name="assunto" value="Critica? Sugestão?"><br><br>
+          <textarea cols="30" rows="10"> <input type="text" value="Coloque aqui o assunto" name="conteudo"> </textarea>
+          <input type="submit" value="Submit">
+        </form> 
+
+<footer class="wrapper row5">
+    <div id="copyright" class="hoc clear">
+      <p class="fl_left">Copyright &copy; - <a href="#">esmarvel</a></p>
+    </div>
+    <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+</footer>
+
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
