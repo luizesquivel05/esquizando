@@ -13,6 +13,10 @@ a {
     text-decoration: none;
     color: #2d1b33;
 }
+a:hover {
+    background-color: crimson;
+    color: #e4e391;
+}
 
 #cabecario, #final {
     background-color: #e4e391;
