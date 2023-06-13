@@ -1,24 +1,72 @@
-### PROJETO ESQUIZANDO.
-## Sobre o projeto:
-É o meu principal projeto na área de WEB - desenvolvimento, unindo todo meu conhecimento na área com de outras áreas, formando um site que é, sim minha cara. Via HTML, CSS e JS.
+# ESQUIZANDO
 
-## O que vai ver por aqui?
-- Reflexão das mais diversas áreas do conhecimento.
-- Um blog do meu Universo literário (Vivara).
-- Um blog sobre temalidades da Marvel e suas múltiplos Universos.
-- Um blog sobre a vida e a ciência.
-- Um blog sobre um tema que amo e tenho 2 publicações acadêmicas (Astrobiologia).
+<img src="img/boletim.png" alt="exemplo imagem">
 
-## Sobre motivações:
-Projeto pessoal mantido com amor e carinho.
+> Web-site pessoal mantido com amor e carinho.
 
-## Sobre mim:
-Sou Luiz Esquivel, mas pode me chamar de Esquivel, LEsquivel, Dudu ou Esquizando.
+### Ajustes e melhorias:
 
-Eu estudo para o ENEM, tenho o desejo de formalizar meus estudos na área de informática, apesar de ter iniciado meus estudos no curso de Bacharelado Interdisciplinar em Ciências e Tecnologia, pela UFBA, em 2021, tive que sair por questões de quórum intímo e força maior.
+Atenção, o projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-Sempre gostei de resolver problemas matemáticos, usar da lógica e dos métodos matemáticos para resolver problemas. Para mim, programar é sobre isso, sobre resolver problemas com base em lógicas e linguagens.
+- [x] Ideação;
+- [x] Codificação do sistema em módulos;
+- [x] Criação da aplicação;
+- [x] Teste da aplicação;
+- [ ] Atualizações futuras.
 
-Além disso, sou amante da literatura e da línguistica, adoro saber sobre como podemos usar dessas áreas para sabermos que a nossa fala é mais do que um conglomerado de palavras soltas.
+## 💻 Pré-requisitos:
 
-Também sou amante das áreas de economia, finanças e política externa, gosto de saber sobre como decisões de um pequeno grupo de pessoas podem influenciar grandes grupos de pessoas. Elasticidade e maximização dos mercados são meus maiores gostos.
+Antes de começar, verifique se você atende aos seguintes requisitos:
+* Ter acesso a internet e o browser
+
+## 🚀 Instalando Esquizando:
+
+Para instalar o Esquizando, siga estas etapas:
+
+No git (rodado pelo terminal):
+```
+    git clone https://github.com/luizesquivel05/sistemadenotas.git
+```
+
+## ☕ Usando Esquizando:
+
+Para usar Esquizando, siga estas etapas:
+
+```
+    Abrir o navegador de preferência.
+
+    Colar a URL: https://luizesquivel05.github.io/esquizando/
+```
+
+## 📫 Contribuindo para Esquizando:
+Para contribuir com Esquizando, siga estas etapas:
+
+1. Bifurque (clone) este repositório.
+2. Crie um branch: `git checkout -b <nome_branch>`.
+3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
+4. Envie para o branch original: `git push origin Esquizando / <local>`
+5. Crie a solicitação de pull.
+
+Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## SUPORTE AO USUÁRIO:
+- Para se conectar, entre em contato via email ou whatsapp:
+    Wpp: +55 (27) 9 9959-7818 (também atende ligações).
+    Email: luizpontes.esquivel@gmail.com 
+
+## 🤝 Colaboradores:
+
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/luizesquivel/">
+        <img src="img/luiz.png" width="100px;" alt="Foto de Luiz Esquivel"/><br>
+        <sub>
+          <b>Luiz Esquivel - 20 anos, médio completo, analista de Desenvolvimento de Sistemas.</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
